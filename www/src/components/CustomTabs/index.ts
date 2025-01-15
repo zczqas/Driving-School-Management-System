@@ -1,0 +1,1 @@
+export { StyledTab, StyledTabs } from "./CustomTabs"

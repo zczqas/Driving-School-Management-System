@@ -1,0 +1,28 @@
+UPDATE_FIELDS = [
+    "name",
+    "description",
+    "address",
+    "phone",
+    "email",
+    "website",
+    "primary_color",
+    "secondary_color",
+    "license_number",
+    "latitude",
+    "longitude",
+    "banner",
+    "title",
+    "operating_hours",
+    "established_year",
+    "footer_banner",
+    "hero_text",
+]
+URL_FIELDS = [
+    "sign_in_url",
+    "sign_up_url",
+    "pricing_url",
+    "facebook_url",
+    "twitter_url",
+    "instagram_url",
+    "linkedin_url",
+]

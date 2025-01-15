@@ -1,0 +1,17 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY www/ .
+
+# ENV NODE_ENV=production
+
+# RUN echo "NODE_ENV during build: $NODE_ENV"
+
+RUN npm install
+
+RUN npm run build
+
+RUN npm install -g serve
+
+CMD sh -c 'echo "NODE_ENV at runtime: $NODE_ENV" && npm start'
