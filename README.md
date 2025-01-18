@@ -1,4 +1,8 @@
-## Setup for backend
+### APIs for school management system developed using FastAPI with PostgreSQL.
+### There are several approaches implemented for instructor scheduling, including time-slot-based scheduling, calendar-based scheduling, and scheduling based on instructor availability.
+
+
+### Setup
 
 ### Clone the Repo
 

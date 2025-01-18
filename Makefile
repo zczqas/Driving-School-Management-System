@@ -1,4 +1,4 @@
-DOCKER_CONTAINER_ID := $(shell docker ps | awk '/sfds_web/ {print $$1}')
+DOCKER_CONTAINER_ID := $(shell docker ps | awk '/dms_web/ {print $$1}')
 
 #@echo "CONATAINER ID :- $(DOCKER_CONTAINER_ID)"
 setup:
